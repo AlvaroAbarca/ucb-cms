@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "en_que_creemoss",
+  "info": {
+    "singularName": "en-que-creemos",
+    "pluralName": "en-que-creemoss",
+    "displayName": "En que creemos"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Titulo": {
+      "type": "string"
+    },
+    "Image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "Description": {
+      "type": "text"
+    }
+  }
+}
